@@ -74,7 +74,7 @@ FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(Fecha_orden, Mesa_orden, Propina_orden, Id_mesero, Id_tipclient);
+(Ord_fecha, Mesa_orden, Propina_orden, Id_mesero, Id_tipclient);
 
 
 -- Carga masiva de tabla Orden_Producto
