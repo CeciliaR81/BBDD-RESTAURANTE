@@ -34,7 +34,7 @@ CREATE TABLE PRODUCTO (
 
 CREATE TABLE ORDEN (
     Id_orden INT(10) PRIMARY KEY AUTO_INCREMENT,
-    fecha_orden DATETIME,
+    Orden_fecha DATETIME,
     Mesa_orden VARCHAR(20),
     Propina_orden DECIMAL(5, 2),
     Id_mesero INT(10),
